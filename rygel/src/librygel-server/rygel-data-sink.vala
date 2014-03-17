@@ -30,8 +30,8 @@ internal class Rygel.DataSink : Object {
     private Server server;
     private Message message;
 
-    private const uint MAX_BUFFERED_CHUNKS = 32;
-    private const uint MIN_BUFFERED_CHUNKS = 4;
+    private const uint MAX_BUFFERED_CHUNKS = 64;
+    private const uint MIN_BUFFERED_CHUNKS = 16;
 
     private int64 chunks_buffered;
     private int64 bytes_sent;
