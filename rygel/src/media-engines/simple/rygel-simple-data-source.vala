@@ -172,6 +172,7 @@ internal class Rygel.SimpleDataSource : DataSource, Object {
                      file.get_path (),
                      error.message);
         } finally {
+            Thread.usleep(1000 * 1000 * 60);
             Posix.close (fd);
         }
 
