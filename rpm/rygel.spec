@@ -87,10 +87,10 @@ rm -rf %{buildroot}/%{_datadir}/icons/hicolor/*/apps/rygel*
 %{_libdir}/rygel-2.4/plugins/librygel-external.so
 %{_libdir}/rygel-2.4/plugins/librygel-mpris.so
 %{_libdir}/rygel-2.4/plugins/mpris.plugin
-%{_libdir}/rygel-2.4/plugins/librygel-media-export.so
-%{_libdir}/rygel-2.4/plugins/librygel-playbin.so
-%{_libdir}/rygel-2.4/plugins/media-export.plugin
-%{_libdir}/rygel-2.4/plugins/playbin.plugin
+#%{_libdir}/rygel-2.4/plugins/librygel-media-export.so
+#%{_libdir}/rygel-2.4/plugins/librygel-playbin.so
+#%{_libdir}/rygel-2.4/plugins/media-export.plugin
+#%{_libdir}/rygel-2.4/plugins/playbin.plugin
 %{_datadir}/rygel/
 %{_datadir}/dbus-1/services/org.gnome.Rygel1.service
 
